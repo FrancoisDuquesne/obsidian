@@ -21,10 +21,10 @@ Gray-coded mapping:
 
 | Bits | Symbol |
 |---|---|
-| 00 | $ \frac{1}{\sqrt{2}}( +1 + j ) $ |
-| 01 | $ \frac{1}{\sqrt{2}}( -1 + j ) $ |
-| 11 | $ \frac{1}{\sqrt{2}}( -1 - j ) $ |
-| 10 | $ \frac{1}{\sqrt{2}}( +1 - j ) $ |
+| 00 | $\frac{1}{\sqrt{2}}(+1 + j)$ |
+| 01 | $\frac{1}{\sqrt{2}}(-1 + j)$ |
+| 11 | $\frac{1}{\sqrt{2}}(-1 - j)$ |
+| 10 | $\frac{1}{\sqrt{2}}(+1 - j)$ |
 
 ---
 
@@ -35,10 +35,10 @@ $$
 r_k = s_k \cdot e^{j\theta} + n_k
 $$
 
-- $ \theta $: carrier phase offset
-- $ n_k $: noise
+- $\theta$: carrier phase offset
+- $n_k$: noise
 
-A non-zero $ \theta $ rotates the constellation -> wrong decisions.
+A non-zero $\theta$ rotates the constellation -> wrong decisions.
 
 ---
 
