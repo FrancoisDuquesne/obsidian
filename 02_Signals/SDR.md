@@ -39,9 +39,9 @@ SDRs do **not** work directly with “waves” or “bits”.
 
 They work with **complex samples**:
 
-\[
+$$
 x[n] = I[n] + jQ[n]
-\]
+$$
 
 Where:
 - **I** = In-phase component
@@ -80,9 +80,9 @@ Where DSP includes:
 
 QPSK symbols are **points in the complex plane**:
 
-[
-s_k \in \left{ \frac{1}{\sqrt{2}}(\pm1 \pm j) \right}
-]
+$$
+s_k \in \left\{ \frac{1}{\sqrt{2}}(\pm1 \pm j) \right\}
+$$
 
 An SDR:
 
