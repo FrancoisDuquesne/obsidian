@@ -1,4 +1,4 @@
-# Index
+﻿# Index
 
 ## Core mental model
 - [[01_Big_Picture/Multi_SDR_Synchronization]]
@@ -8,6 +8,3 @@
 
 ## Glossary
 - [[90_Glossary/Glossary]]
-
-## Scratchpad
-- [[99_Meeting_Notes/Meeting_Notes]]

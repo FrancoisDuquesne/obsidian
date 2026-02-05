@@ -1,4 +1,4 @@
-﻿# PRS and Preambles
+# PRS and Preambles
 
 PRS = **Pseudo-Random Sequence**
 

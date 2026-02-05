@@ -1,4 +1,4 @@
-﻿# QPSK (Quadrature Phase Shift Keying)
+# QPSK (Quadrature Phase Shift Keying)
 
 ## TL;DR
 QPSK encodes **2 bits per symbol** using four constellation points in the complex plane (I/Q).
