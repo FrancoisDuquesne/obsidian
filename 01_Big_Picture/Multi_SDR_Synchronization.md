@@ -1,4 +1,4 @@
-# Multi-SDR Synchronization
+﻿# Multi-SDR Synchronization
 
 Multi-SSDR systems are **primarily synchronization problems**, not data problems.
 
@@ -8,12 +8,12 @@ Multi-SSDR systems are **primarily synchronization problems**, not data problems
 - **Phase**: carrier phase alignment
 - **Frame**: known sequences (PRS / preambles)
 
-If any of these fail → constellation rotates, frames drift, data breaks.
+If any of these fail -> constellation rotates, frames drift, data breaks.
 
 ## Key tools
-- PPS → time alignment
+- PPS -> time alignment
 - Shared reference clock (e.g. 10 MHz)
-- PRS / preambles → frame + phase recovery
+- PRS / preambles -> frame + phase recovery
 
 Next:
 - [[04_Synchronization/PPS]]

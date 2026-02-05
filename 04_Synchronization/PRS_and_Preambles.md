@@ -1,4 +1,4 @@
-# PRS and Preambles
+﻿# PRS and Preambles
 
 PRS = **Pseudo-Random Sequence**
 
@@ -12,7 +12,7 @@ A deterministic sequence that looks random but is known to both transmitter and 
 
 ## Intuition
 Receiver correlates incoming samples with known PRS:
-- Peak → frame start
-- Phase of peak → carrier phase offset
+- Peak -> frame start
+- Phase of peak -> carrier phase offset
 
 This directly enables QPSK demodulation.

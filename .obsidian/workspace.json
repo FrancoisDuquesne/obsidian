@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c1d5717857172df4",
+        "id": "710c63bef232e7d0",
         "type": "tabs",
         "children": [
           {
-            "id": "1dabee0389a402bd",
+            "id": "c6275c85c350a6ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -183,13 +183,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "1dabee0389a402bd",
+  "active": "c6275c85c350a6ce",
   "lastOpenFiles": [
+    "00_Index/00_Index.md",
+    "03_Modulation/QPSK.md",
+    "04_Synchronization/PPS.md",
+    "Untitled.base",
+    "2026-02-05.md",
+    "01_Big_Picture/Multi_SDR_Synchronization.md",
     "90_Glossary/Glossary.md",
     "04_Synchronization/PRS_and_Preambles.md",
     "README.md",
-    "hola.md",
-    "03_Modulation/QPSK.md",
-    "01_Big_Picture/Multi_SDR_Synchronization.md"
+    "hola.md"
   ]
 }

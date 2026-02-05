@@ -1,9 +1,9 @@
-# PPS (Pulse Per Second)
+﻿# PPS (Pulse Per Second)
 
 PPS is a **hardware timing signal** that produces one pulse exactly every second.
 
 ## Why it exists
-- Gives all devices a shared notion of “time”
+- Gives all devices a shared notion of "time"
 - Used to align sample counters and frames
 
 ## In multi-SDR systems
