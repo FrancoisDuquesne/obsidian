@@ -5,5 +5,15 @@
 - **QPSK**: Quadrature Phase Shift Keying
 - **PPS**: Pulse Per Second
 - **PRS**: Pseudo-Random Sequence
+- **MCS**: Mission Control Software
+- **PSS**: Passes Scheduler Service (ground planning & pass triggering)
+- **PPS (MCS)**: Passes Processor Service (ephemeral pass execution)
+- **PRS (MCS)**: Passes Reporter Service (pass data storage & query)
+- **EMS**: Equipment Management Service
+- **SLS**: Spacecraft Lifecycle Service
+- **OAP**: Onboard Activity Planner
+- **NMS**: Notification Management Service
+- **TC**: Telecommand (uplink to spacecraft)
+- **TM**: Telemetry (downlink from spacecraft)
 - **Control plane**: configuration, orchestration
 - **Data plane**: streaming samples and DSP
