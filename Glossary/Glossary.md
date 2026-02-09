@@ -1,5 +1,3 @@
-# Glossary
-
 - **SSDR**: Space Software Defined Radio
 - **I/Q**: In-phase and Quadrature components
 - **QPSK**: Quadrature Phase Shift Keying

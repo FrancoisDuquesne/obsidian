@@ -1,6 +1,4 @@
-# Passes Reporter Service (PRS)
-
-> Not to be confused with [[04_Synchronization/PRS_and_Preambles|PRS (Pseudo-Random Sequence)]] from the signal processing domain.
+> Not to be confused with [[Synchronization/PRS and Preambles|PRS (Pseudo-Random Sequence)]] from the signal processing domain.
 
 ## What it is
 The PRS is a **persistent, always-running service** that stores, analyses, and serves all execution data from satellite passes. It acts as the **data repository and query layer** for pass operations.
@@ -35,7 +33,7 @@ flowchart LR
 ## Responsibilities
 
 ### Data ingestion
-- Subscribes to **RabbitMQ** events published by [[05_MCS/Passes_Processor_Service|PPS]]
+- Subscribes to **RabbitMQ** events published by [[MCS/Passes Processor Service|PPS]]
 - Persists to database:
   - Telemetry (TM) packets
   - Telecommand (TC) packets
@@ -118,6 +116,6 @@ gantt
 ---
 
 ## Links
-- [[05_MCS/Pass_Lifecycle]]
-- [[05_MCS/Passes_Processor_Service]]
-- [[05_MCS/MCS_Overview]]
+- [[MCS/Pass Lifecycle]]
+- [[MCS/Passes Processor Service]]
+- [[MCS/MCS Overview]]

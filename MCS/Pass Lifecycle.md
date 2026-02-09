@@ -1,5 +1,3 @@
-# Pass Lifecycle
-
 A pass goes through several phases, coordinated by three core services: **PSS**, **PPS**, and **PRS**.
 
 ---
@@ -46,7 +44,7 @@ When a pass is **reserved, updated, imported, or cancelled**, the PSS creates/up
 
 ## Execution (PPS)
 
-The [[05_MCS/Passes_Processor_Service|PPS]] is spawned as an **ephemeral Kubernetes Pod** for each pass.
+The [[MCS/Passes Processor Service|PPS]] is spawned as an **ephemeral Kubernetes Pod** for each pass.
 
 ### Execution phases
 1. **Preprocessing** — load configuration, establish ground station connection
@@ -82,7 +80,7 @@ Every interaction is persisted in the `scheduledpassaction` table.
 
 ## Reporting (PRS)
 
-The [[05_MCS/Passes_Reporter_Service|PRS]] runs continuously and:
+The [[MCS/Passes Reporter Service|PRS]] runs continuously and:
 1. **Consumes** execution events published by PPS via RabbitMQ
 2. **Stores** packets (TC/TM), events, and time correlation data
 3. **Serves** this data via REST APIs and SSE streams
@@ -125,6 +123,6 @@ sequenceDiagram
 ---
 
 ## Links
-- [[05_MCS/MCS_Overview]]
-- [[05_MCS/Passes_Processor_Service]]
-- [[05_MCS/Passes_Reporter_Service]]
+- [[MCS/MCS Overview]]
+- [[MCS/Passes Processor Service]]
+- [[MCS/Passes Reporter Service]]

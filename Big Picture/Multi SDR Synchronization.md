@@ -1,5 +1,3 @@
-﻿# Multi-SDR Synchronization
-
 Multi-SSDR systems are **primarily synchronization problems**, not data problems.
 
 ## Dimensions of synchronization
@@ -16,5 +14,5 @@ If any of these fail -> constellation rotates, frames drift, data breaks.
 - PRS / preambles -> frame + phase recovery
 
 Next:
-- [[04_Synchronization/PPS]]
-- [[04_Synchronization/PRS_and_Preambles]]
+- [[Synchronization/PPS]]
+- [[Synchronization/PRS and Preambles]]

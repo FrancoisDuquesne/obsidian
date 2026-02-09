@@ -1,5 +1,3 @@
-# OEM (Orbit Ephemeris Message)
-
 ## One-sentence definition
 An **OEM (Orbit Ephemeris Message)** is a standardized file that gives the **position (and often velocity) of a spacecraft as a function of time**, in a well-defined reference frame.
 
@@ -9,7 +7,7 @@ An **OEM (Orbit Ephemeris Message)** is a standardized file that gives the **pos
 
 OEM answers the question:
 
-> “Where exactly was the spacecraft at time **T**?”
+> "Where exactly was the spacecraft at time **T**?"
 
 This is critical because many subsystems depend on **space–time geometry**:
 - ground station visibility
@@ -57,7 +55,7 @@ Important distinction:
 - OEM is **declarative**
 
 It simply states:
-> “At this time, the spacecraft was here, moving like this.”
+> "At this time, the spacecraft was here, moving like this."
 
 Any interpolation or prediction is done by the **consumer**.
 
@@ -123,7 +121,7 @@ Velocity in OEM greatly improves:
 | Engineering / ops | Public tracking |
 | Explicit metadata | Implicit assumptions |
 
-OEM is used **inside missions**.  
+OEM is used **inside missions**.
 TLE is mostly for **external tracking**.
 
 ---
@@ -151,13 +149,13 @@ OEM is therefore a **key dependency** for precise SDR processing.
 
 ## Mental model to keep
 
-> **OEM is the spacecraft’s breadcrumb trail in space–time.**
+> **OEM is the spacecraft's breadcrumb trail in space–time.**
 
 Everything else (Doppler, pointing, visibility) is derived from it.
 
 ---
 
 ## Links
-- [[02_Signals/SDR]]
-- [[04_Synchronization/PPS]]
-- [[01_Big_Picture/Multi_SDR_Synchronization]]
+- [[Signals/SDR]]
+- [[Synchronization/PPS]]
+- [[Big Picture/Multi SDR Synchronization]]

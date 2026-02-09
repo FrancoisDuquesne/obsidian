@@ -1,5 +1,3 @@
-# What is an SDR (Software Defined Radio)?
-
 ## One-sentence definition
 An **SDR (Software Defined Radio)** is a radio system where **most signal processing is done in software on digital samples**, not in fixed analog hardware.
 
@@ -35,7 +33,7 @@ RF → ADC → software (DSP) → bits
 
 ## The core idea: complex baseband (I/Q)
 
-SDRs do **not** work directly with “waves” or “bits”.
+SDRs do **not** work directly with "waves" or "bits".
 
 They work with **complex samples**:
 
@@ -92,13 +90,13 @@ An SDR:
 
 This makes SDR + QPSK a very natural pair.
 
-See also: [[03_Modulation/QPSK]]
+See also: [[Modulation/QPSK]]
 
 ---
 
-## What makes an SDR “software” (in practice)
+## What makes an SDR "software" (in practice)
 
-“Software” does not always mean **CPU**.
+"Software" does not always mean **CPU**.
 
 SDR processing can run on:
 
@@ -164,7 +162,7 @@ Without synchronization:
 * symbols drift
 * demodulation fails
 
-That’s why SDR discussions quickly involve:
+That's why SDR discussions quickly involve:
 
 * PPS → time alignment
 * PRS → frame & phase alignment
@@ -182,7 +180,7 @@ Everything else (QPSK, PPS, PRS, OEM) plugs into that idea.
 
 ## Links
 
-* [[03_Modulation/QPSK]]
-* [[04_Synchronization/PPS]]
-* [[04_Synchronization/PRS_and_Preambles]]
-* [[01_Big_Picture/Multi_SDR_Synchronization]]
+* [[Modulation/QPSK]]
+* [[Synchronization/PPS]]
+* [[Synchronization/PRS and Preambles]]
+* [[Big Picture/Multi SDR Synchronization]]

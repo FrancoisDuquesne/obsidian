@@ -1,5 +1,3 @@
-# Mission Control Software (MCS) Overview
-
 ## What it is
 The MCS is a **microservice-based backend** for operating spacecraft. It handles ground planning, pass execution, telemetry/telecommand processing, and spacecraft lifecycle management.
 
@@ -61,8 +59,8 @@ Mission-agnostic microservices with well-delimited responsibilities:
 | Service | Abbr | Role |
 |---|---|---|
 | Passes Scheduler Service | PSS | Ground planning, triggers pass execution |
-| [[05_MCS/Passes_Processor_Service\|Passes Processor Service]] | PPS | Executes a single pass (ephemeral batch) |
-| [[05_MCS/Passes_Reporter_Service\|Passes Reporter Service]] | PRS | Stores & serves pass execution data |
+| [[MCS/Passes Processor Service\|Passes Processor Service]] | PPS | Executes a single pass (ephemeral batch) |
+| [[MCS/Passes Reporter Service\|Passes Reporter Service]] | PRS | Stores & serves pass execution data |
 | Equipment Management Service | EMS | Satellite, constellation & ground station config |
 | Spacecraft Lifecycle Service | SLS | Spacecraft state tracking & history |
 | Onboard Activity Planner | OAP | Mission planning, activity-to-TC transformation |
@@ -128,11 +126,11 @@ flowchart LR
     style GS fill:#e8f5e9,stroke:#388e3c
 ```
 
-See [[05_MCS/Pass_Lifecycle]] for the full flow.
+See [[MCS/Pass Lifecycle]] for the full flow.
 
 ---
 
 ## Links
-- [[05_MCS/Pass_Lifecycle]]
-- [[05_MCS/Passes_Processor_Service]]
-- [[05_MCS/Passes_Reporter_Service]]
+- [[MCS/Pass Lifecycle]]
+- [[MCS/Passes Processor Service]]
+- [[MCS/Passes Reporter Service]]

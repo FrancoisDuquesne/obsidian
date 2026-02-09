@@ -1,6 +1,4 @@
-# Passes Processor Service (PPS)
-
-> Not to be confused with [[04_Synchronization/PPS|PPS (Pulse Per Second)]] from the signal processing domain.
+> Not to be confused with [[Synchronization/PPS|PPS (Pulse Per Second)]] from the signal processing domain.
 
 ## What it is
 The PPS is an **ephemeral batch service** that executes a single satellite pass. It is spawned as a **Kubernetes Pod** by the PSS when a scheduled pass begins, and terminated once the pass and post-processing are complete.
@@ -96,7 +94,7 @@ flowchart LR
 
 ### Event publishing
 - Publishes all execution events, packets, and status updates to **RabbitMQ**
-- Consumed downstream by [[05_MCS/Passes_Reporter_Service|PRS]]
+- Consumed downstream by [[MCS/Passes Reporter Service|PRS]]
 
 ---
 
@@ -138,6 +136,6 @@ flowchart TB
 ---
 
 ## Links
-- [[05_MCS/Pass_Lifecycle]]
-- [[05_MCS/Passes_Reporter_Service]]
-- [[05_MCS/MCS_Overview]]
+- [[MCS/Pass Lifecycle]]
+- [[MCS/Passes Reporter Service]]
+- [[MCS/MCS Overview]]

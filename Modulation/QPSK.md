@@ -1,5 +1,3 @@
-# QPSK (Quadrature Phase Shift Keying)
-
 ## TL;DR
 QPSK encodes **2 bits per symbol** using four constellation points in the complex plane (I/Q).
 In SDR systems, signals are processed as **complex samples**:
@@ -60,7 +58,7 @@ Receivers must estimate:
 - carrier phase offset
 - symbol timing
 
-Using known sequences -> see [[04_Synchronization/PRS_and_Preambles]].
+Using known sequences -> see [[Synchronization/PRS and Preambles]].
 
 ---
 
